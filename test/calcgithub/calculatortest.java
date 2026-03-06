@@ -15,4 +15,10 @@ public class calculatortest {
       Calculator calculator = new Calculator();
       assertEquals("2 - 1 = 1", 1, calculator.subtract(2, 1));
     }
+    @Test
+    public void multiplysTwoNumbers(){
+        Calculator calculator = new Calculator();
+        assertEquals("2 * 2 = 4", 4, calculator.multiply(2, 2));
+    }
+    
 }
